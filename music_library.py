@@ -86,7 +86,7 @@ class Playlist:
 
 	def remove_song(self, song):
 		del self.songs[song.title]
-		return '{} removed to playlist'.format(song.title)
+		return '{} removed from playlist'.format(song.title)
 
 	def list_tracks(self):
 		print 'Track Title\tArtist(s)\tAlbum(s)'
